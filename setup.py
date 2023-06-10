@@ -6,7 +6,7 @@ with open(file="README.md", mode="r") as readme_handle:
 
 setup(
     name='irvy',
-    version='1.0.1',
+    version='1.0.2',
     description='A brief description of your project',  # add this
     long_description=long_description,
     long_description_content_type="text/markdown",
