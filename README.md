@@ -1,6 +1,6 @@
 # Irvy
 
-Irvy is a command-line tool to setup projects for Selenium and Playwright in different languages.
+Irvy simplifies the setup process for test automation using Selenium or Playwright across multiple programming languages. It serves as a valuable tool for both novice automation engineers and seasoned professionals, facilitating a seamless transition between programming languages such as Java, C#, or JavaScript by providing comparable building blocks.
 
 In an ever-evolving technological landscape, the demand for efficient and versatile test automation tools has never been greater. Irvy, a command-line interface tool, steps up to this challenge by streamlining the setup process for test automation across a broad spectrum of programming languages. Whether you are a novice entering the world of automation engineering or a seasoned veteran, Irvy’s ability to provide comparable building blocks facilitates an effortless transition between different programming languages such as Java, C#, or JavaScript.
 
