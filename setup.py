@@ -1,15 +1,16 @@
 from setuptools import setup, find_packages
 
-try:
-    import pypandoc
-    long_description = pypandoc.convert('README.md', 'rst')
-except ImportError:
-    long_description = open('README.md').read()
+# Open the README file.
+with open(file="README.md", mode="r") as readme_handle:
+    long_description = readme_handle.read()
 
 setup(
     name='irvy',
     version='0.0.1',
-    packages=['irvy', 'irvy.generators'],  # specify packages here
+    description='A brief description of your project',  # add this
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    packages=find_packages(),  # this should automatically find your packages
     include_package_data=True,
     install_requires=[
         # list of dependencies
