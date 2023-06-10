@@ -2,6 +2,12 @@
 
 Irvy is a command-line tool to setup projects for Selenium and Playwright in different languages.
 
+In an ever-evolving technological landscape, the demand for efficient and versatile test automation tools has never been greater. Irvy, a command-line interface tool, steps up to this challenge by streamlining the setup process for test automation across a broad spectrum of programming languages. Whether you are a novice entering the world of automation engineering or a seasoned veteran, Irvy’s ability to provide comparable building blocks facilitates an effortless transition between different programming languages such as Java, C#, or JavaScript.
+
+Harnessing the capabilities of popular automation tools like Selenium and Playwright, Irvy empowers users to initiate projects in their language of choice with a simple, interactive command-line interface. This process alleviates the potential complexities associated with the setup phase, allowing users to focus their attention on the development of high-quality, robust automation scripts.
+
+In addition, Irvy fosters an environment of continuous learning and skill diversification. For seasoned professionals who have primarily worked in a single programming language, Irvy offers a comfortable, straightforward entry point to explore and adopt different languages. This not only widens their skillset but also broadens their perspective on the different strategies and approaches to test automation.
+
 ## Features
 - Setup Selenium projects in Python, C#, and JavaScript.
 - Setup Playwright projects in Python, C#, and JavaScript.
@@ -27,6 +33,7 @@ Select technology
 Select tool you want to use
 
 # Project Structure
+```
 project_name/
 |-- .gitignore
 |-- README.md
@@ -35,7 +42,7 @@ project_name/
     |-- tests/
         |-- test_example.js OR test_example.py OR test_example.cs
 |-- node_modules/ OR venv/ OR packages/
-
+```
 # Technologies and Frameworks
 Depending on the language and tool you choose, Irvy will use different testing frameworks:
 
@@ -48,6 +55,8 @@ JavaScript: Irvy will use Jest for both Selenium and Playwright projects.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+irvy.org
 
 # License
 MIT
