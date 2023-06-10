@@ -45,10 +45,11 @@ project_name/
 ```
 # Technologies and Frameworks
 Depending on the language and tool you choose, Irvy will use different testing frameworks:
-
+```
 Python: Irvy will use Pytest for both Selenium and Playwright projects.
 C#: Irvy will use xUnit for both Selenium and Playwright projects.
 JavaScript: Irvy will use Jest for both Selenium and Playwright projects.
+```
 
 
 # Contributing
