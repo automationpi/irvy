@@ -13,17 +13,85 @@ In addition, Irvy fosters an environment of continuous learning and skill divers
 - Setup Playwright projects in Python, C#, and JavaScript.
 - Interactive command-line interface.
 
-## Installation
-You can install Irvy using pip:
+# Installation and Usage Guide for Irvy
+
+This guide will walk you through installing Python and using Irvy on different operating systems. We will cover installation on Windows, MacOS, and Linux.
+
+## Prerequisites
+Before we start, ensure you have the following:
+
+- A working computer with one of the following operating systems: Windows, MacOS, Linux.
+- Access to the command line terminal.
+
+## Installing Python
+
+Irvy requires Python 3.7 or later. Follow the steps below to install Python on your operating system.
+
+### Windows
+
+1. Download the latest Python release from the official website (https://www.python.org/downloads/windows/).
+2. Run the installer, ensure "Add Python to PATH" is checked, then follow the installation prompts.
+
+### MacOS
+
+1. MacOS comes preinstalled with Python, but it's typically an older version. You can use Homebrew to install the latest version.
+2. If you don't have Homebrew, install it with the following command:
+
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
+3. Install Python with Homebrew:
+
+   ```bash
+   brew install python
+   ```
+
+### Linux
+
+Different Linux distributions have different methods to install Python. Here's how you can install Python on Ubuntu:
+
+1. Update your system:
+
+   ```bash
+   sudo apt update
+   sudo apt upgrade
+   ```
+
+2. Install Python:
+
+   ```bash
+   sudo apt install python3
+   ```
+
+## Verify Python Installation
+
+Verify your Python installation by checking the version in your terminal:
+
+```bash
+python --version
+```
+
+You should see output like `Python 3.11.3` or later.
+
+## Install Irvy
+
+You can install Irvy directly from PyPI using pip:
+
 ```bash
 pip install irvy
 ```
 
-# Usage
-You can run Irvy with the following command:
+## Using Irvy
+
+After successfully installing Irvy, you can run it by simply typing the following command in your terminal:
+
 ```bash
 irvy
 ```
+
+This will start an interactive command-line interface where you can select the language and tool you want to use for your project. Follow the prompts to generate your test automation project.
+
 This will start an interactive command-line interface where you can choose the language and tool you want to use for your project.
 
 ![image](https://github.com/automationpi/irvy/assets/82222256/2b680165-c947-4bfb-ae3c-cac93a012294)
