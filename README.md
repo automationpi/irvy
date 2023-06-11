@@ -113,9 +113,7 @@ project_name/
 ```
 
 
-
-https://github.com/automationpi/irvy/assets/82222256/89dbfc66-d8ff-4405-bf88-d5291cbf25df
-
+https://github.com/automationpi/irvy/assets/82222256/4a780b2c-8779-4980-a568-1dd715bb319e
 
 
 
